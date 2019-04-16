@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Zero</title>
+  </head>
+  <body>
+    <script src="/dist/zero.output.js"></script>
+    <script>
+      new Zero({
+        locateFile: f => ('/dist/' + f)
+      }).then(i => {
+        // execute codec snapshot;
+        i._run_core();
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+CMakeFiles/
+Makefile
+cmake_install.cmake
+node_modules/
+.vscode/
+CMakeCache.txt
